@@ -1,5 +1,5 @@
 package Practice;
-
+// check if given input is a character
 import java.util.Scanner;
 
 public class Character {
