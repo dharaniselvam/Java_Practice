@@ -1,5 +1,5 @@
 package Practice;
-
+// check if given integer is positive, negative or zero
 import java.util.Scanner;
 
 public class CheckSign {
