@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// arithmetic sequence = a, a+d, a+2d, a+3d
 class Arithmeticprogression{
 	public static void main(String[] qwe){
 	Scanner scan=new Scanner(System.in);
