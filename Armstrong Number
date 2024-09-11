@@ -1,0 +1,22 @@
+package Practice;
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		int n= 153;
+		int r=0, temp=0, mul=0;
+		temp =n;
+		
+		while(n!=0) {
+			r=n%10;
+			mul = mul + (r*r*r);
+			n=n/10;
+		}
+		
+		if(mul==temp)
+			System.out.println(mul+ " is an armstrong number");
+		else
+			System.out.println(mul+ " is not an armstrong number");
+		
+	}
+
+}
