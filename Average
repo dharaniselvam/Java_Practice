@@ -1,5 +1,5 @@
 package Practice;
-
+// return average of an array
 import java.util.Scanner;
 
 public class Average {
