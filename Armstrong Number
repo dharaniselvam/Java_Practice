@@ -1,4 +1,5 @@
 package Practice;
+// 153: 13 + 53 + 33 = 1 + 125+ 27 = 153
 public class ArmstrongNumber {
 
 	public static void main(String[] args) {
