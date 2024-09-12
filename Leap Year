@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// returnsthe maximum number in an array
+// returns whether given year is leap or not
 public class Main {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
