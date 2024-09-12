@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// multiples of a given number upto 5
+//Gives the greatest of 3 numbers
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
