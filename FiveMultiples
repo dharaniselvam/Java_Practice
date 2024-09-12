@@ -1,0 +1,13 @@
+import java.util.Scanner;
+// multiples of a given number upto 5
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int r =0;
+        for(int i=1;i<=5;i++){
+            r = n*i;
+            System.out.print(r+" ");
+        }
+    }
+}
