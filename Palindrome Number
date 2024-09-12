@@ -1,0 +1,19 @@
+import java.util.Scanner;
+// returnsthe maximum and minimum number in an array
+public class Main {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		int temp=0, r=0, sum=0;
+		temp=n;
+		while(n!=0){
+		    r=n%10;
+		    n=n/10;
+		    sum=(sum*10)+r;
+		}
+		if(temp==sum)
+		    System.out.println(temp + " is a palindrome number");
+		else
+		    System.out.println(temp + " is a not palindrome number");
+    }  
+}
