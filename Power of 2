@@ -1,0 +1,13 @@
+import java.util.Scanner;
+// returns the power of 2
+public class Main {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+		double n=s.nextInt();
+		double temp=0;
+		for(double i=1;i<=n;i++){
+    		temp=java.lang.Math.pow(2,i);
+            System.out.print(temp+ " ");
+    }
+}
+}
