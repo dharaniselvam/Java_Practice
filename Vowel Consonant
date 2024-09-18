@@ -1,0 +1,14 @@
+import java.util.Scanner;
+//returns vowel or not for given character
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        String str1 = s.next();
+        Character str = str1.toLowerCase().charAt(0);
+        if(str=='a' || str=='e' || str=='i' || str=='o' || str=='u')
+            System.out.println("Vowel");
+        else
+            System.out.println("Consonant");
+    }
+    
+}
