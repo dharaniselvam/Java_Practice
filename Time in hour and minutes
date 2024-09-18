@@ -1,0 +1,12 @@
+import java.util.Scanner;
+//returns given seconds in minutes
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int seconds = s.nextInt();
+        int hour=0,min=0;
+        hour=seconds/60;
+        min=seconds%60;
+        System.out.print(seconds+"is "+hour+"hrs "+min+"mins");
+}
+}
