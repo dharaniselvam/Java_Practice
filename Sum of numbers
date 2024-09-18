@@ -1,0 +1,15 @@
+import java.util.Scanner;
+//returns sum of numbers
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int sum=0, a=1;
+        while(a<=n){
+            sum=sum+a;
+            a++;
+        }
+        System.out.print(sum);
+        
+}
+}
